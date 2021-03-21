@@ -1,0 +1,32 @@
+/* Header Start  */
+
+@media only screen and (max-width: 1024px) {
+    .nav01 {
+        width: 100%;
+    }
+    .header01>i {
+        display: block;
+    }
+    .nav01>ul {
+        display: none;
+        /* margin-top: 80px; */
+    }
+    .nav01>ul>li {
+        display: block;
+        margin: 5px 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header01 {
+        padding: 20px 20px;
+        font-size: 0.8em;
+    }
+    .header01>i {
+        padding: 10px 20px;
+    }
+}
+
+
+/* Header Close */
