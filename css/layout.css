@@ -3,6 +3,7 @@
     * {
         margin: 0;
         padding: 0;
+        /* font-size: 16px; */
         box-sizing: border-box;
     }
     
@@ -35,9 +36,10 @@
     /*..header0101*/
     
     .header01 {
-        padding: 20px 80px;
+        padding: 15px 70px;
         width: 100%;
         position: fixed;
+        font-size: 0.9em;
         top: 0;
         left: 0;
     }
@@ -53,7 +55,7 @@
         display: inline-block;
         font-weight: bold;
         color: var(--Green);
-        font-size: 2em;
+        font-size: 1.8em;
     }
     
     .nav01 {
@@ -69,13 +71,13 @@
     
     .nav01>ul>li {
         display: inline-block;
-        padding: 15px 20px;
+        padding: 13px 18px;
         border: 3px dashed transparent;
         transition: 0.5s ease;
     }
     
     .nav01>ul>li:last-child {
-        padding: 10px 20px;
+        padding: 10px 18px;
         background: var(--Green);
         transition: 0.5s ease;
         color: var(--Navy) !important;
@@ -119,7 +121,7 @@
         border: 3px dashed transparent;
         color: var(--Green);
         float: right;
-        font-size: 1.8em;
+        font-size: 1.6em;
         display: none;
         transition: 0.5s ease;
     }
@@ -148,9 +150,9 @@
     }
     
     .iconsdiv>a {
-        padding: 6px;
+        padding: 5px;
         color: var(--Slate);
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     
     .iconsdiv>a:hover {
@@ -182,9 +184,9 @@
     }
     
     .button {
-        font-size: 1.3em;
+        font-size: 1.1em;
         color: var(--Green);
-        padding: 10px 20px;
+        padding: 10px 18px;
         border-radius: 10px;
         /* margin: 10px 0; */
         /* margin-top: 20px; */
@@ -221,28 +223,28 @@
     .homebox01>span:nth-child(1) {
         color: var(--Green);
         font-family: var(--consolas);
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     
     .homebox01>span:nth-child(2) {
         color: var(--White);
         font-weight: bolder;
-        font-size: 6em;
+        font-size: 5.4em;
     }
     
     .homebox01>span:nth-child(3) {
         color: var(--Slate);
         font-weight: bolder;
-        font-size: 4.3em;
+        font-size: 4em;
     }
     
     .homebox01>a {
-        padding: 10px;
+        padding: 9px;
         border-radius: 10px;
         border: 3px solid var(--LightestSlate);
-        max-width: 200px;
+        max-width: 180px;
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1.3em;
         text-decoration: none;
         margin-top: 20px;
         color: var(--LightestSlate);
@@ -340,7 +342,7 @@
     }
     
     .aboutdiv>div>p {
-        font-size: 1.3em;
+        font-size: 1.1em;
         padding-right: 50px;
         color: var(--LightSlate);
         font-weight: 500;
@@ -483,7 +485,7 @@
         color: var(--LightSlate);
         margin: 5px;
         flex-grow: 1;
-        max-width: 330px;
+        max-width: 300px;
         padding: 25px;
         border-radius: 10px;
         display: flex;
@@ -491,14 +493,14 @@
     }
     
     .achievementdiv>div>i {
-        font-size: 3em;
+        font-size: 2.7em;
         color: var(--Green);
         margin-bottom: 10px;
         /* margin: 5px; */
     }
     
     .achievementdiv>div>span:nth-child(2) {
-        font-size: 2em;
+        font-size: 1.8em;
         color: var(--LightestSlate);
         /* margin: 5px; */
         font-weight: bold;
@@ -519,19 +521,19 @@
     }
     
     .gitdiv>div:nth-child(2)>span:nth-child(1) {
-        font-size: 3em;
+        font-size: 2.7em;
         color: var(--White);
         font-weight: bold;
     }
     
     .gitdiv>div:nth-child(2)>span:nth-child(2) {
-        font-size: 1.3em;
+        font-size: 1.1em;
         color: var(--Slate);
         margin: 10px 0;
     }
     
     .gitdiv>div:nth-child(2)>a {
-        font-size: 1.3em;
+        font-size: 1.1em;
         color: var(--Green);
         padding: 10px 20px;
         border-radius: 10px;
