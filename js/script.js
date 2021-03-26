@@ -1,7 +1,6 @@
 AOS.init()
 $(window).ready(function() {
     $('.loader01').hide();
-
 })
 $(window).scroll(function(e) {
     $el = $('.header01');
