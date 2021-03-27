@@ -29,6 +29,11 @@
         background-image: linear-gradient(120deg, var(--Navy), var(--LightNavy));
     }
     
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    
     .bodydiv {
         background-image: linear-gradient(120deg, var(--Navy), var(--LightNavy));
         width: 100%;
@@ -603,6 +608,7 @@
         top: 0;
         left: 0;
         height: 100%;
+        z-index: 10;
         width: 100vw;
     }
     
