@@ -97,6 +97,7 @@
         font-weight: bold;
         color: var(--Green);
         font-size: 1.8em;
+        cursor: pointer;
     }
     
     .nav01 {
